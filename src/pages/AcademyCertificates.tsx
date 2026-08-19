@@ -1,0 +1,7 @@
+import { Award, QrCode, ShieldCheck } from 'lucide-react';
+import { useSEO } from '@/lib/seo';
+
+export default function AcademyCertificates() {
+  useSEO({ title: 'Certificates | VATTAMS Academy', description: 'Professional digital certificates and verification for VATTAMS Academy learners.', path: '/#academy-certificates' });
+  return <main className="min-h-[70vh] bg-slate-50 py-14"><div className="max-w-5xl mx-auto px-4"><div className="bg-white rounded-3xl border border-slate-200 p-8 md:p-12"><Award className="text-indigo-600" size={34}/><h1 className="text-4xl font-black mt-5">VATTAMS Academy Certificates</h1><p className="text-slate-600 mt-3 max-w-2xl">Professional digital certificates for eligible course completion and Academy competitions, with a future-ready verification system.</p><div className="grid md:grid-cols-3 gap-4 mt-10"><div className="p-5 rounded-2xl bg-indigo-50"><ShieldCheck className="text-indigo-600"/><h3 className="font-bold mt-3">Unique Certificate ID</h3></div><div className="p-5 rounded-2xl bg-indigo-50"><QrCode className="text-indigo-600"/><h3 className="font-bold mt-3">QR Verification</h3></div><div className="p-5 rounded-2xl bg-indigo-50"><Award className="text-indigo-600"/><h3 className="font-bold mt-3">Achievement Records</h3></div></div><p className="text-sm text-slate-500 mt-8">Certificate issuance and public verification are being built as part of the Academy launch roadmap.</p></div></div></main>;
+}

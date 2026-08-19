@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">VATTAMS Academy</title>
+  <desc id="desc">VATTAMS Academy — Learn. Practice. Achieve.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="204" height="204" rx="48" fill="#0f172a"/>
+  <path d="M55 154 96 58h28l42 96h-29l-8-20H92l-8 20H55Zm46-43h20l-10-29-10 29Z" fill="url(#g)"/>
+  <path d="M61 82h98l-49-27-49 27Z" fill="#f4c95d"/>
+  <path d="M78 88v14m64-14v14M67 104h84" stroke="#f4c95d" stroke-width="7" stroke-linecap="round"/>
+  <text x="250" y="92" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="3" fill="#0f172a">VATTAMS</text>
+  <text x="254" y="142" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="9" fill="#4f46e5">ACADEMY</text>
+  <text x="254" y="178" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="2" fill="#64748b">LEARN. PRACTICE. ACHIEVE.</text>
+</svg>

@@ -1,0 +1,28 @@
+/*
+ * VATTAMS Academy Phase 45 accessibility helpers.
+ * Import this file from the existing global stylesheet entry if desired.
+ */
+
+:root {
+  --academy-font-scale: 100%;
+}
+
+html {
+  font-size: var(--academy-font-scale);
+}
+
+html.academy-keyboard-navigation *:focus {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

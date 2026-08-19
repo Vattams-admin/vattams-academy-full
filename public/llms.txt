@@ -1,0 +1,16 @@
+# VATTAMS Academy
+
+> VATTAMS Academy is an online education platform serving learners through structured courses, tutor-led classes, competitive exam preparation, skills development, competitions and certificates.
+
+## Core learning areas
+
+- Academic subjects
+- Vedic Maths and Abacus
+- Public Speaking and Spoken English
+- Coding, Python and AI fundamentals
+- Competitive exam preparation
+- International English/exam preparation
+- Student competitions and assessments
+- Digital certificates and verification
+
+Website: https://vattams.net
