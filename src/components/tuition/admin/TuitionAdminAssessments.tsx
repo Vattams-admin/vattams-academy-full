@@ -3,7 +3,7 @@ import { ClipboardList, Plus, RefreshCw, TestTube2 } from 'lucide-react';
 import {
   createAssignment,
   createQuestionBank,
-  createQuestion,
+  addQuestion,
   createTest,
   listAssignments,
   listQuestionBanks,
@@ -66,7 +66,7 @@ export default function TuitionAdminAssessments() {
       title: `${title} Question Bank`,
       courseId: courseId || null,
     });
-    await createQuestion({
+    await addQuestion({
       questionBankId: bank.bank.id,
       questionText: 'Sample question — replace this with your own question.',
       questionType: 'mcq',
